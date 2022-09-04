@@ -1,8 +1,8 @@
 import React from 'react';
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import Home from './pages/Home';
-import Abouts from './pages/Abouts';
-
+import ReactDOM from 'react-dom/client';
+import Home from './pages/Home.tsx';
+import Abouts from './pages/Abouts.tsx';
+import { BrowserRouter, Routes , Route } from "react-router-dom";
 const App = () => {
     return (
         <BrowserRouter>

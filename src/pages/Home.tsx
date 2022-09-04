@@ -1,7 +1,7 @@
 import React from 'react';
-import Countries from '../components/Countries';
-import Logo from '../components/Logo';
-import Navigation from '../components/Navigation';
+import Countries from '../components/Countries.tsx';
+import Logo from '../components/Logo.tsx';
+import Navigation from '../components/Navigation.tsx';
 
 const Home = () => {
     return (

@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
-import Card from './Card';
+import Card from './Card.tsx';
 
 const Countries = () => {
     const [data, setData] = useState([])

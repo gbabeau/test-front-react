@@ -1,6 +1,6 @@
 import React from "react";
-import Logo from "../components/Logo";
-import Navigation from "../components/Navigation";
+import Logo from "../components/Logo.tsx";
+import Navigation from "../components/Navigation.tsx";
 
 const Abouts = () => {
     return (
